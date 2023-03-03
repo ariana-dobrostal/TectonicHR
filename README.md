@@ -6,8 +6,8 @@ A web application for monitoring and recording earthquakes in Croatia.
 The system has three types of users: citizens, seismologists and administrators. 
 
 Citizen
-• does not have to register to use the application
-• is offered the choice of selecting the last earthquake, a new earthquake or older earthquakes
+• does not have to register to use the application <br />
+• is offered the choice of selecting the last earthquake, a new earthquake or older earthquakes 
 • can fill out and submit a questionnaire for a new earthquake
 • available overview of the preliminary earthquake intensity map
 
