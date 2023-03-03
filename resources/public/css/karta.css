@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+#map{
+    height: 60vh;
+    width: 65vw;
+    margin: auto;
+}
+
+.epicentar {
+    background-image: url('/slike/star.svg');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.intenzitet6{
+    background-image: url('/slike/circle6.svg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.intenzitet5{
+    background-image: url('/slike/circle5.svg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.intenzitet4{
+    background-image: url('/slike/circle4.svg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.intenzitet3{
+    background-image: url('/slike/circle3.svg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.intenzitet2{
+    background-image: url('/slike/circle2.svg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.intenzitet1{
+    background-image: url('/slike/circle1.svg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.legenda{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+    width: 75%;
+}
+
+@media only screen and (max-width: 600px){
+    #map{
+        width: 100vw;   
+        margin: 0;
+    }
+
+    .legenda{
+        width: 100%;
+    }
+}

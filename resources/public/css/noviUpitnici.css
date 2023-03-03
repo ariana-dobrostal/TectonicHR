@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.atrWithBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.atrWithBtn div{
+    margin: 0;
+}
+
+.atrHolder{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.adminTabBtn{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 20px;
+}
+
+.historyBtn{
+    background-color: #149CFF;
+}
+
+.historyBtn:hover{
+    background-color: #1472ff;
+}
+
+@media only screen and (max-width: 650px){
+    .adminTabBtn{
+        width: 45px;
+        height: 45px;
+        border-radius: 10px;
+        margin: 0 0 0 5px;
+    }
+
+    .atrHolder{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .atrHolder{
+        width: 100px;
+    }
+
+    .adminTabBtn{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        border-radius: 10px;
+    }
+}

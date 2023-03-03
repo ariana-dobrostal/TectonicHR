@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.prijavaTitle{
+    margin: 10px;
+    font-size: 64px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 30%;
+}
+
+.customTextbox{
+    width: 100%;
+    /* height: 35px; */
+    height: 35px;               /* promjena */
+    border-radius: 5px;
+    margin-top: 10px;
+    border-radius: 10px;        /* dodala */
+    font-size: 24px;            /* dodala */
+}
+
+.customTextbox:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.leftAlignForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.leftAlignForm .formGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+label{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    color: #FE8F8F;
+}
+
+.radioPitanje{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    color: #FE8F8F;
+}
+
+.radioLabel{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: #FE8F8F;
+}
+
+.radioInput{
+    width: 15px;
+    height: 15px;
+}
+
+.checkboxItem{
+    display: flex; 
+    align-items: center;
+    width: 100%;
+}
+
+.checkboxItem input{
+    width: 30px;
+    height: 30px;
+}
+
+.questionsDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.pitanje{
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .formGroup{
+        width: 60%;
+    }
+}

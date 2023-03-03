@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html {
+    scroll-padding-top: 100px;
+}
+
+body{
+    background-color: #FFEDD3;
+}
+/* dodala sam h3 na potres.html*/
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FE8F8F;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FF5C58;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #FF5C58;
+    text-align: center;
+}
+
+hr{
+    border: 0;
+    text-decoration: none;
+    height: 3px;
+    background-color: #FE8F8F;
+    width: 60%;
+}
+
+.customBtn{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFEDD3;
+    background-color: #FF5C58;
+    border-radius: 20px;
+    border: 0;
+    text-decoration: none;
+    margin: 50px 100px;         /* prije je bilo 100px 0 0 0 */
+    transition: 0.25s;
+    width: 300px;
+    padding: 10px 0px;          /* prije je bilo 10px 0 10px 0 */
+}
+
+.customBtn:hover{
+    background-color: #ff2c26;
+    text-decoration: none;
+    color: #FFEDD3;
+}
+
+.btnContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnContainer2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    h1{
+        font-size: 64px;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 24px;        /* dodala sam ovo */
+    }
+
+    hr{
+        width: 70%;
+    }
+
+    .customBtn{
+        margin: 50px 50px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    h1{
+        font-size: 48px;
+    }
+
+    hr{
+        width: 80%;
+    }
+
+    .customBtn{
+        margin: 50px 25px;
+        font-size: 18px;
+    }
+}

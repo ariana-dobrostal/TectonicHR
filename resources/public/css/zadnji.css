@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.customNavbar{
+    background-color: #FF5C58;
+}
+
+.customNavbar li {
+    padding: 0px 20px;      /* dodala */
+}
+
+.navTitle{
+    color: #FFEDD3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.customLink{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: #FFEDD3;
+    margin-right: 10px;
+}
+
+.customLink:hover{
+    color: #FFEDD3;
+    text-decoration: underline 0.15em rgba(255, 237, 211, 1);
+}
+
+.customBars{
+    color: #FFEDD3;
+    outline: none;
+}
+
+.customBars:focus{
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.titleHolder{
+    margin: auto;
+    margin-top: 1%;
+    width: 30%;
+    padding-top: 1%;                /* dodala sam padding */
+    padding-bottom: 3%;
+}
+
+.titleHolder hr{
+    width: 90%;
+}
+
+.potresTab{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid #FF5C58;
+    border-radius: 15px;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;           
+    padding: 10px;
+
+}
+
+.tighterDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+}
+
+.atrTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: #FE8F8F;
+}
+
+.atrName{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    color: #FF5C58;
+}
+
+@media only screen and (max-width: 992px){
+    .customLink{
+        text-align: center;
+    }
+
+    .titleHolder{
+        width: 100%;
+    }
+
+    .atrTitle{
+        font-size: 18px;
+    }
+
+    .atrName{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .atrTitle{
+        font-size: 14px;
+    }
+
+    .atrName{
+        font-size: 18px;
+    }
+
+    .customBars{
+        font-size: 24px;
+    }
+
+    .potresTab{
+        width: 90%;
+    }
+
+    .tighterDiv{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .atrTitle{
+        font-size: 12px;
+    }
+
+    .atrName{
+        font-size: 14px;
+    }
+}
