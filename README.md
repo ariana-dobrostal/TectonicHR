@@ -1,12 +1,12 @@
 # TectonicHR
-A web application for monitoring and recording earthquakes in Croatia.
+A web application for monitoring and recording earthquakes in Croatia. <br />
 
 ![tectonicHRdizajn](https://user-images.githubusercontent.com/110941477/222762051-6ff3637e-f7b7-494d-b171-420451481d90.png)
 <p align="center">
-Image 1: App's desktops overview
+Image 1: App's desktops overview <br />
 </p>
 
-The system has three types of users: citizens, seismologists and administrators. 
+<br /> The system has three types of users: citizens, seismologists and administrators. 
 
 Citizen <br />
 • does not have to register to use the application <br />
